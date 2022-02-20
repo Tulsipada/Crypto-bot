@@ -2,6 +2,7 @@
 # Logs
 logs
 *.log
+#run/// git rm -r --cached api.txt///
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
