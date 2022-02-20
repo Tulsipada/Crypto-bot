@@ -25,5 +25,5 @@
         console.log(highprice);
         coinsell()
       }  
-  console.log("price"+ price);
+  console.log("price>>>"+ price);
 }
