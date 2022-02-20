@@ -42,7 +42,6 @@ app.use('/login', auth);
 app.use('/', dashboard);
 app.use('/logout', logout);
 app.use('/addmoney', addmoney);
-// app.use('/api/getmoney',getmoney);
 
 //server
 const port = process.env.PORT || 4000;
