@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HOME PAGE</title>
+</head>
+<body>
+    <%if (!locals.user) { %>
+    <a href="/login">login</a>
+    <% }else { %>
+    <h1>Hey <%=locals.user?user:""%>, Welcome to Trading bot</h1>
+    <a href="/addmoney">addmoney</a>
+    <a href="/logout">logout</a>
+    <%}%>
+
+    
+
+<!-- TradingView Widget BEGIN -->
+<!-- <div class="tradingview-widget-container">
+    <div id="tradingview_72776"></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+    <script type="text/javascript">
+    new TradingView.widget(
+    {
+    "width": 610,
+    "height": 310,
+    "symbol": "BINANCE:BTCUSDT",
+    "interval": "1",
+    "timezone": "Asia/Kolkata",
+    "theme": "dark",
+    "style": "3",
+    "locale": "in",
+    "toolbar_bg": "#f1f3f6",
+    "enable_publishing": false,
+    "hide_legend": true,
+    "save_image": false,
+    "container_id": "tradingview_72776"
+  }
+    );
+    </script>
+  </div> -->
+  <!-- TradingView Widget END -->
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>addmoney</title>
+
+</head>
+<body>
+    <form action="/addmoney" method="POST">
+        <h3>MONEY:<%=locals.money?money:"0"%></h3>
+        <input type="text" name="money" placeholder="ADD MONEY"/>
+        <br>
+        <input type="submit" value="ADD MONEY" class="login-button"/>
+
+      </form>
+</body>
+</html>
