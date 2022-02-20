@@ -12,7 +12,7 @@ const users = require('./routes/signup');
 const logout = require('./routes/logout');
 const dashboard = require('./routes/dashboard');
 const addmoney = require('./routes/addmoney');
-const getmoney = require('./routes/getMoney');
+// const getmoney = require('./routes/getMoney');
 
 //mongodb connection
 const url = process.env.URL;
