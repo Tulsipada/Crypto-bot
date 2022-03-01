@@ -132,3 +132,4 @@ dist
 .pnp.*
 
 api.txt
+package-lock.json
